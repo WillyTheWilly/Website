@@ -1,0 +1,87 @@
+/*Button position*/
+#MainTitle
+{
+    text-align: center;
+    margin-top: 19%;
+}
+/*Button*/
+#MainTitleButton
+{
+    border: 3px dashed rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+#MainTitleButton.b1:hover 
+{
+    background-color: #444444;
+    cursor:pointer;
+}
+/*Smaller button*/
+#SecondTitle
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    
+}
+#SecondTitleLocation
+{
+    text-align: center;
+    margin-top: 1.1%;
+}
+#SecondTitle.b2:hover
+{
+    background-color: #444444;
+    cursor:pointer;
+}
+body
+{
+    background-color: black;
+    background-image: url(myStar.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+#Page2Title
+{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: fantasy;
+    text-align: center;
+}
+#myCanvas
+{
+    
+    height: 100%;
+    margin: 0 auto;
+}
+#BackToHomePage
+{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    font-size: 22px;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);   
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+#BackToHomePage.b3:hover
+{
+    background-color: #444444;
+    cursor:pointer;
+}
+
+
